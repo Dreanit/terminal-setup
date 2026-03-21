@@ -1,0 +1,90 @@
+# ============================================================
+#  GHOSTTY CONFIG — Funky Developer Edition
+# ============================================================
+
+# === Theme ===
+# Catppuccin Mocha — the community favorite, auto-switches with OS
+theme = light:Catppuccin Latte,dark:Catppuccin Mocha
+
+# === Font ===
+# Fira Code — excellent ligatures + best-in-class character distinction
+# Slashed zero, dotted 0, distinct 1/l/I, clear {}()[] differences
+font-family = MapleMono NF
+font-size = 13
+font-thicken = true
+font-feature = +liga
+font-feature = +calt
+adjust-cell-height = 2
+
+# === Cursor ===
+cursor-style = bar
+cursor-style-blink = true
+cursor-color = #f5c2e7
+
+# === Window & Glass Effect ===
+background-opacity = 0.40
+background-blur-radius = 40
+window-padding-x = 16
+window-padding-y = 12
+window-padding-balance = true
+window-padding-color = background
+macos-titlebar-style = hidden
+window-colorspace = display-p3
+window-inherit-working-directory = true
+window-theme = dark
+
+# === Splits & Focus ===
+unfocused-split-opacity = 0.7
+focus-follows-mouse = true
+
+# === Shell Integration ===
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+# === Quick Terminal (Drop-Down Quake Style) ===
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.15
+quick-terminal-autohide = true
+
+# === Scrollback ===
+scrollback-limit = 100000000
+
+# === Clipboard ===
+clipboard-read = ask
+clipboard-write = allow
+clipboard-paste-protection = true
+
+# === Keybindings — Splits ===
+keybind = ctrl+shift+enter=new_split:right
+keybind = ctrl+shift+d=new_split:down
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:bottom
+keybind = ctrl+shift+k=goto_split:top
+keybind = ctrl+shift+l=goto_split:right
+
+# === Keybindings — Prompt Navigation ===
+keybind = ctrl+shift+up=jump_to_prompt:-1
+keybind = ctrl+shift+down=jump_to_prompt:1
+
+# === Notifications ===
+notify-on-command-finish = unfocused
+notify-on-command-finish-after = 10s
+
+# === Shaders — The Funky Sauce ===
+# Cursor trail — Neovide-style warp effect
+custom-shader = ~/.config/ghostty/cursor-shaders/cursor_warp.glsl
+# Keep shader animations running
+custom-shader-animation = always
+
+# --- More shader combos to try (uncomment to swap) ---
+# Retro CRT vibes:
+#   custom-shader = ~/.config/ghostty/shaders/bettercrt.glsl
+# Cyberpunk glitch:
+#   custom-shader = ~/.config/ghostty/shaders/glitchy.glsl
+# Matrix rain behind your code:
+#   custom-shader = ~/.config/ghostty/shaders/inside-the-matrix.glsl
+# Animated starfield background:
+#   custom-shader = ~/.config/ghostty/shaders/starfield-colors.glsl
+# Lava lamp vibes:
+#   custom-shader = ~/.config/ghostty/shaders/cineShader-Lava.glsl
