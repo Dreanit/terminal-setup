@@ -1,0 +1,71 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1440" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f1020"/>
+      <stop offset="0.45" stop-color="#1e1e2e"/>
+      <stop offset="1" stop-color="#302442"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="80" x2="1440" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e1e2e" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#11111b" stop-opacity="0.76"/>
+    </linearGradient>
+    <filter id="shadow" x="56" y="42" width="1328" height="824" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#wallpaper)"/>
+  <g opacity="0.35">
+    <circle cx="1190" cy="156" r="280" fill="#cba6f7"/>
+    <circle cx="220" cy="760" r="260" fill="#89b4fa"/>
+    <circle cx="982" cy="762" r="220" fill="#f5c2e7"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="72" width="1248" height="756" rx="16" fill="url(#glass)" stroke="#585b70"/>
+    <rect x="96.5" y="72.5" width="1247" height="54" rx="15.5" fill="#181825" fill-opacity="0.96"/>
+    <line x1="96" y1="127" x2="1344" y2="127" stroke="#313244"/>
+
+    <circle cx="124" cy="100" r="8" fill="#f38ba8"/>
+    <circle cx="150" cy="100" r="8" fill="#f9e2af"/>
+    <circle cx="176" cy="100" r="8" fill="#a6e3a1"/>
+
+    <text x="720" y="106" fill="#a6adc8" text-anchor="middle" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="14">sahil - Ghostty</text>
+
+    <g font-family="Maple Mono NF, JetBrains Mono, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24">
+      <text x="132" y="180" fill="#cba6f7" font-weight="700">~/Documents/terminal-setup</text>
+      <text x="530" y="180" fill="#a6e3a1">main</text>
+      <text x="612" y="180" fill="#f38ba8">M docs</text>
+      <text x="716" y="180" fill="#f38ba8">M config</text>
+      <text x="132" y="226" fill="#b4befe" font-weight="700">&gt;</text>
+      <text x="166" y="226" fill="#cdd6f4">ls</text>
+
+      <text x="132" y="286" fill="#89b4fa">configs</text>
+      <text x="318" y="286" fill="#89b4fa">assets</text>
+      <text x="504" y="286" fill="#cdd6f4">README.md</text>
+      <text x="674" y="286" fill="#a6e3a1">install.sh</text>
+
+      <text x="132" y="346" fill="#cba6f7" font-weight="700">~/Documents/terminal-setup</text>
+      <text x="530" y="346" fill="#a6e3a1">main</text>
+      <text x="612" y="346" fill="#f38ba8">M docs</text>
+      <text x="716" y="346" fill="#f38ba8">M config</text>
+      <text x="132" y="392" fill="#b4befe" font-weight="700">&gt;</text>
+      <text x="166" y="392" fill="#cdd6f4">git lg --max-count=4</text>
+
+      <text x="132" y="452" fill="#f5c2e7">*</text>
+      <text x="166" y="452" fill="#f9e2af">4d3a1c2</text>
+      <text x="290" y="452" fill="#cdd6f4">restore native Ghostty window controls</text>
+      <text x="132" y="498" fill="#f5c2e7">*</text>
+      <text x="166" y="498" fill="#f9e2af">a17b8e0</text>
+      <text x="290" y="498" fill="#cdd6f4">add Catppuccin terminal setup</text>
+      <text x="132" y="544" fill="#f5c2e7">*</text>
+      <text x="166" y="544" fill="#f9e2af">9c04db6</text>
+      <text x="290" y="544" fill="#cdd6f4">configure LazyVim starter</text>
+
+      <text x="132" y="632" fill="#cba6f7" font-weight="700">~/Documents/terminal-setup</text>
+      <text x="530" y="632" fill="#a6e3a1">main</text>
+      <text x="132" y="678" fill="#b4befe" font-weight="700">&gt;</text>
+      <rect x="166" y="657" width="13" height="28" fill="#f5c2e7"/>
+    </g>
+  </g>
+</svg>

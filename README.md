@@ -32,7 +32,9 @@ A curated macOS terminal setup built for aesthetics, productivity, and developer
 
 ## Screenshots
 
-> Add your own screenshots here
+![Ghostty terminal preview](assets/screenshots/ghostty-preview.svg)
+
+> Preview of the Ghostty + Catppuccin Mocha setup with the native macOS title bar enabled.
 
 ## Prerequisites
 
@@ -99,7 +101,10 @@ window-padding-x = 16
 window-padding-y = 12
 window-padding-balance = true
 window-padding-color = background
-macos-titlebar-style = hidden
+window-decoration = true
+macos-titlebar-style = native
+macos-window-buttons = visible
+macos-titlebar-proxy-icon = visible
 window-colorspace = display-p3
 window-inherit-working-directory = true
 window-theme = dark
@@ -113,10 +118,11 @@ shell-integration = detect
 shell-integration-features = cursor,sudo,title
 
 # === Quick Terminal (Drop-Down Quake Style) ===
-keybind = global:ctrl+grave_accent=toggle_quick_terminal
-quick-terminal-position = top
-quick-terminal-animation-duration = 0.15
-quick-terminal-autohide = true
+# Disabled so Ghostty opens as a normal movable macOS window with titlebar buttons.
+# keybind = global:ctrl+grave_accent=toggle_quick_terminal
+# quick-terminal-position = top
+# quick-terminal-animation-duration = 0.15
+# quick-terminal-autohide = true
 
 # === Scrollback ===
 scrollback-limit = 100000000
